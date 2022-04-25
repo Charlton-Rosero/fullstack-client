@@ -27,7 +27,7 @@ export default function Artists(){
         );
       });
     return(
-        <div>
+        <div className="artists">
           <nav className="navbar">
           <h1>Groov-e</h1>
           <div className="navlinks">

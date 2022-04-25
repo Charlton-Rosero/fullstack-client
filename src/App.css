@@ -106,6 +106,10 @@
 color: rgb(255, 255, 255);
   
 }
+.artists h3{
+  color: rgb(255, 255, 255);
+    
+  }
 
 .navlinks a{
   padding: 10px;
@@ -117,4 +121,8 @@ color: rgb(255, 255, 255);
 
 .navlinks a:hover{
   color: rgb(132, 132, 132);
+}
+
+.artist{
+  color:white;
 }
