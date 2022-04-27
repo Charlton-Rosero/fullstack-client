@@ -22,9 +22,9 @@ export default function Artists(){
       const artistData = artists.map((artist, index) => {
         return (
           <div key={artist._id}>
-        <div className="genre-container"><NavLink to={`/artist/${artist._id}`}><div><img className="genre-item" src={artist.img}/></div><p>{artist.name}</p></NavLink>
+        <div className="genre-container"><NavLink to={`/artist/${artist._id}`}><div></div><p>{artist.name}</p></NavLink>
           </div>
-           
+           {/* <img className="genre-item" src={artist.img}/> */}
           </div>
         );
       });
